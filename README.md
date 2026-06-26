@@ -10,6 +10,9 @@
 [`diario`](https://github.com/StrategicProjects/diario). It securely stores an API
 token and wraps authenticated requests to retrieve projects, tasks, reports, and more.
 
+> 📦 **Using R?** See the sibling package [**diario**](https://github.com/StrategicProjects/diario)
+> ([CRAN](https://cran.r-project.org/package=diario) · [docs](https://strategicprojects.github.io/diario/)).
+
 > **Disclaimer.** This package is a wrapper for the API provided by the **Diário de
 > Obras** platform, which owns the data. Function and argument names are in English,
 > but because the source API is in Portuguese, **response keys and some data values
