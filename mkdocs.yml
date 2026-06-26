@@ -47,8 +47,12 @@ markdown_extensions:
       permalink: true
   - pymdownx.highlight
   - pymdownx.superfences
+  - pymdownx.snippets:
+      base_path: ["."]
+      check_paths: true
 
 nav:
   - Home: index.md
   - Usage: usage.md
   - API reference: reference.md
+  - Changelog: changelog.md
