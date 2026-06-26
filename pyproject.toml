@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "diariopy"
+version = "0.1.0"
+description = "Python interface to the Diário de Obras (diariodeobras.net) API"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "André Leite", email = "leite@castlab.org" },
+    { name = "Hugo Vasconcelos", email = "hugo.vasconcelos@ufpe.br" },
+    { name = "Diogo Bezerra", email = "diogo.bezerra@ufpe.br" },
+]
+keywords = ["diariodeobras", "construction", "obras", "api", "client"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+dependencies = [
+    "requests>=2.25",
+    "keyring>=23.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+    "responses>=0.23",
+]
+
+[project.urls]
+Homepage = "https://github.com/StrategicProjects/diariopy"
+Repository = "https://github.com/StrategicProjects/diariopy"
+Issues = "https://github.com/StrategicProjects/diariopy/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/diariopy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
