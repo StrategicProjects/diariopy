@@ -8,6 +8,12 @@ authenticated requests.
 - PyPI distribution **and** import name: `diariopy` (the name `diario` was taken on
   PyPI). Repo: `StrategicProjects/diariopy` (public).
 - The R sibling lives in `../diario`. Keep behaviour in parity when changing either.
+  Both READMEs cross-link.
+
+**Current status (2026-06-26):** v0.1.0 published to PyPI; docs site live at
+https://strategicprojects.github.io/diariopy/ ; CI green on Python 3.9–3.13. Working
+tree clean. GitHub Actions already pinned to Node-24 majors
+(checkout@v5, setup-uv@v7, upload/download-artifact@v5).
 
 ## Layout (src layout)
 
