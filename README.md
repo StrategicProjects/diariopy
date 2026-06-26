@@ -3,6 +3,7 @@
 [![CI](https://github.com/StrategicProjects/diariopy/actions/workflows/ci.yml/badge.svg)](https://github.com/StrategicProjects/diariopy/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/diariopy.svg)](https://pypi.org/project/diariopy/)
 [![Python](https://img.shields.io/pypi/pyversions/diariopy.svg)](https://pypi.org/project/diariopy/)
+[![Docs](https://img.shields.io/badge/docs-mkdocs-blue.svg)](https://strategicprojects.github.io/diariopy/)
 
 **diariopy** is a Python interface to the [diariodeobras.net](https://diariodeobras.net)
 ("Diário de Obras") platform — the Python counterpart of the R package
