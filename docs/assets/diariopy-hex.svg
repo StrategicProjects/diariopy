@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="230" viewBox="0 0 200 230" role="img" aria-label="diariopy">
+  <title>diariopy</title>
+  <defs>
+    <linearGradient id="hex" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#26a69a"/>
+      <stop offset="0.55" stop-color="#00897b"/>
+      <stop offset="1" stop-color="#00695c"/>
+    </linearGradient>
+    <clipPath id="hexclip">
+      <path d="M100,5 L195.26,60 L195.26,170 L100,225 L4.74,170 L4.74,60 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- hex body -->
+  <path d="M100,5 L195.26,60 L195.26,170 L100,225 L4.74,170 L4.74,60 Z" fill="url(#hex)"/>
+
+  <!-- faint blueprint grid -->
+  <g clip-path="url(#hexclip)" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1">
+    <path d="M20,0 V230 M40,0 V230 M60,0 V230 M80,0 V230 M100,0 V230 M120,0 V230 M140,0 V230 M160,0 V230 M180,0 V230"/>
+    <path d="M0,20 H200 M0,40 H200 M0,60 H200 M0,80 H200 M0,100 H200 M0,120 H200 M0,140 H200 M0,160 H200 M0,180 H200 M0,200 H200"/>
+  </g>
+
+  <!-- ground line -->
+  <line x1="38" y1="136" x2="162" y2="136" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- building under construction -->
+  <g>
+    <rect x="96" y="98" width="48" height="38" fill="#ffffff"/>
+    <g fill="#00897b">
+      <rect x="103" y="103" width="9" height="7"/>
+      <rect x="118" y="103" width="9" height="7"/>
+      <rect x="133" y="103" width="6" height="7"/>
+      <rect x="103" y="114" width="9" height="7"/>
+      <rect x="118" y="114" width="9" height="7"/>
+      <rect x="133" y="114" width="6" height="7"/>
+      <rect x="103" y="125" width="9" height="7"/>
+      <rect x="118" y="125" width="9" height="7"/>
+      <rect x="133" y="125" width="6" height="7"/>
+    </g>
+  </g>
+
+  <!-- tower crane -->
+  <g fill="#ffffff">
+    <!-- mast -->
+    <rect x="56" y="80" width="10" height="56"/>
+    <!-- apex -->
+    <polygon points="61,64 67,80 55,80"/>
+    <!-- jib + counter-jib -->
+    <rect x="40" y="74" width="102" height="6"/>
+  </g>
+  <!-- counterweight -->
+  <rect x="36" y="76" width="9" height="11" fill="#ffc107"/>
+  <!-- mast lattice notches -->
+  <g stroke="#00897b" stroke-width="2">
+    <line x1="56" y1="96" x2="66" y2="96"/>
+    <line x1="56" y1="110" x2="66" y2="110"/>
+    <line x1="56" y1="124" x2="66" y2="124"/>
+  </g>
+  <!-- cables -->
+  <g stroke="#ffffff" stroke-width="1.5" stroke-linecap="round">
+    <line x1="61" y1="64" x2="140" y2="77"/>
+    <line x1="61" y1="64" x2="41" y2="77"/>
+    <line x1="118" y1="80" x2="118" y2="89"/>
+  </g>
+  <!-- lifted beam -->
+  <rect x="107" y="89" width="22" height="8" rx="1" fill="#ffc107"/>
+
+  <!-- wordmark -->
+  <text x="100" y="165" text-anchor="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="28" font-weight="700" letter-spacing="0.5">
+    <tspan fill="#ffffff">diario</tspan><tspan fill="#ffc107">py</tspan>
+  </text>
+
+  <!-- hex borders -->
+  <path d="M100,5 L195.26,60 L195.26,170 L100,225 L4.74,170 L4.74,60 Z"
+        fill="none" stroke="#004d40" stroke-width="5"/>
+  <path d="M100,17 L184.87,66 L184.87,164 L100,213 L15.13,164 L15.13,66 Z"
+        fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="2.5"/>
+</svg>

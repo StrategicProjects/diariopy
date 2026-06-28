@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/diariopy-hex.svg" alt="diariopy hex logo" width="200">
+</p>
+
 # diariopy
 
 [![CI](https://github.com/StrategicProjects/diariopy/actions/workflows/ci.yml/badge.svg)](https://github.com/StrategicProjects/diariopy/actions/workflows/ci.yml)

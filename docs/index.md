@@ -1,5 +1,9 @@
 # diariopy
 
+<p align="center">
+  <img src="assets/diariopy-hex.svg" alt="diariopy hex logo" width="200">
+</p>
+
 **diariopy** is a Python interface to the [diariodeobras.net](https://diariodeobras.net)
 ("Diário de Obras") platform — the Python counterpart of the R package
 [`diario`](https://github.com/StrategicProjects/diario). It securely stores an API
