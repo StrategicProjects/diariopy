@@ -1,0 +1,27 @@
+{
+  "upload_type": "software",
+  "title": "diariopy: Python interface to the Diário de Obras (diariodeobras.net) API",
+  "description": "Python interface to the Diário de Obras (diariodeobras.net) construction-log API. Securely stores an API token and wraps authenticated requests to retrieve projects, tasks, reports, and more. Python counterpart of the R package diario.",
+  "license": "MIT",
+  "creators": [
+    { "name": "Leite, André", "affiliation": "Universidade Federal de Pernambuco" },
+    { "name": "Vasconcelos, Hugo", "affiliation": "Universidade Federal de Pernambuco" },
+    { "name": "Bezerra, Diogo", "affiliation": "Universidade Federal de Pernambuco" },
+    { "name": "Wasiliew, Marcos" },
+    { "name": "Amorim, Carlos", "affiliation": "Universidade Federal de Pernambuco" },
+    { "name": "Ferreira, Felipe" },
+    { "name": "Azevedo, Roger" }
+  ],
+  "keywords": [
+    "diariodeobras",
+    "construction",
+    "obras",
+    "api",
+    "client",
+    "python"
+  ],
+  "related_identifiers": [
+    { "relation": "isIdenticalTo", "identifier": "https://pypi.org/project/diariopy/", "resource_type": "software" },
+    { "relation": "isDerivedFrom", "identifier": "https://github.com/StrategicProjects/diario", "resource_type": "software" }
+  ]
+}

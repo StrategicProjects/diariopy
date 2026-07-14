@@ -10,10 +10,13 @@ authenticated requests.
 - The R sibling lives in `../diario`. Keep behaviour in parity when changing either.
   Both READMEs cross-link.
 
-**Current status (2026-06-28):** v0.1.0 published to PyPI; docs site live at
-https://strategicprojects.github.io/diariopy/ ; CI green on Python 3.9–3.13. Working
-tree clean. GitHub Actions already pinned to Node-24 majors
-(checkout@v5, setup-uv@v7, upload/download-artifact@v5).
+**Current status (2026-07-14):** v0.1.1 (Zenodo archival release); docs site live at
+https://strategicprojects.github.io/diariopy/ ; CI green on Python 3.9–3.13. GitHub
+Actions already pinned to Node-24 majors (checkout@v5, setup-uv@v7,
+upload/download-artifact@v5). Author list corrected and expanded to 7 (parity with
+the R sibling `diario`); Marcos's display surname is "Wasiliew" (email keeps
+"wasilew"). Archived to Zenodo via the GitHub integration — `CITATION.cff` and
+`.zenodo.json` present; DOI badge in README.
 
 Hex sticker logo added: `docs/assets/diariopy-hex.svg` (tower crane building over a
 structure, teal palette matching the docs theme, amber `py` accent). Wired into the

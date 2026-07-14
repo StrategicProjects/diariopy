@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "diariopy"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python interface to the Diário de Obras (diariodeobras.net) API"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -14,6 +14,10 @@ authors = [
     { name = "André Leite", email = "leite@castlab.org" },
     { name = "Hugo Vasconcelos", email = "hugo.vasconcelos@ufpe.br" },
     { name = "Diogo Bezerra", email = "diogo.bezerra@ufpe.br" },
+    { name = "Marcos Wasiliew", email = "marcos.wasilew@gmail.com" },
+    { name = "Carlos Amorim", email = "carlos.agaf@ufpe.br" },
+    { name = "Felipe Ferreira", email = "felipe.ferreira@semobi.pe.gov.br" },
+    { name = "Roger Azevedo", email = "roger.azevedo@tpfe.com.br" },
 ]
 keywords = ["diariodeobras", "construction", "obras", "api", "client"]
 classifiers = [

@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-07-14
+
+### Added
+
+- Archival metadata for Zenodo: `CITATION.cff` and `.zenodo.json`, enabling a DOI
+  via the GitHub–Zenodo integration.
+
+### Changed
+
+- Corrected and completed the author list (7 authors, in parity with the R sibling
+  `diario`).
+
 ## [0.1.0] - 2026-06-26
 
 Initial release — a Python port of the R package
@@ -28,5 +40,6 @@ Initial release — a Python port of the R package
 - Test suite with the network mocked (`responses`); CI across Python 3.9–3.13.
 - Documentation site (MkDocs Material) and PyPI publishing via trusted publishing.
 
-[Unreleased]: https://github.com/StrategicProjects/diariopy/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/StrategicProjects/diariopy/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/StrategicProjects/diariopy/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/StrategicProjects/diariopy/releases/tag/v0.1.0

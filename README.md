@@ -75,6 +75,12 @@ uv run pytest             # tests mock the network; no token required
 uv build                  # build sdist + wheel
 ```
 
+## Citation
+
+If you use **diariopy** in your work, please cite it. Citation metadata lives in
+[`CITATION.cff`](CITATION.cff); GitHub renders a ready-to-use citation from it via
+the "Cite this repository" button.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

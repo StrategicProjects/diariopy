@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: diariopy
+type: software
+version: 0.1.1
+date-released: 2026-07-14
+license: MIT
+repository-code: "https://github.com/StrategicProjects/diariopy"
+url: "https://strategicprojects.github.io/diariopy/"
+abstract: >-
+  Python interface to the Diário de Obras (diariodeobras.net) construction-log
+  API. Securely stores an API token and wraps authenticated requests to retrieve
+  projects, tasks, reports, and more. Python counterpart of the R package diario.
+keywords:
+  - diariodeobras
+  - construction
+  - obras
+  - api
+  - client
+  - python
+authors:
+  - family-names: Leite
+    given-names: André
+    email: leite@castlab.org
+    affiliation: Universidade Federal de Pernambuco
+  - family-names: Vasconcelos
+    given-names: Hugo
+    email: hugo.vasconcelos@ufpe.br
+    affiliation: Universidade Federal de Pernambuco
+  - family-names: Bezerra
+    given-names: Diogo
+    email: diogo.bezerra@ufpe.br
+    affiliation: Universidade Federal de Pernambuco
+  - family-names: Wasiliew
+    given-names: Marcos
+    email: marcos.wasilew@gmail.com
+  - family-names: Amorim
+    given-names: Carlos
+    email: carlos.agaf@ufpe.br
+    affiliation: Universidade Federal de Pernambuco
+  - family-names: Ferreira
+    given-names: Felipe
+    email: felipe.ferreira@semobi.pe.gov.br
+  - family-names: Azevedo
+    given-names: Roger
+    email: roger.azevedo@tpfe.com.br
