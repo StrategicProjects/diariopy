@@ -8,6 +8,7 @@
 [![PyPI](https://img.shields.io/pypi/v/diariopy.svg)](https://pypi.org/project/diariopy/)
 [![Python](https://img.shields.io/pypi/pyversions/diariopy.svg)](https://pypi.org/project/diariopy/)
 [![Docs](https://img.shields.io/badge/docs-mkdocs-blue.svg)](https://strategicprojects.github.io/diariopy/)
+[![DOI](https://zenodo.org/badge/1281385093.svg)](https://doi.org/10.5281/zenodo.21365571)
 
 **diariopy** is a Python interface to the [diariodeobras.net](https://diariodeobras.net)
 ("Diário de Obras") platform — the Python counterpart of the R package
@@ -79,7 +80,9 @@ uv build                  # build sdist + wheel
 
 If you use **diariopy** in your work, please cite it. Citation metadata lives in
 [`CITATION.cff`](CITATION.cff); GitHub renders a ready-to-use citation from it via
-the "Cite this repository" button.
+the "Cite this repository" button. Each release is archived on Zenodo — cite the
+version-independent concept DOI [10.5281/zenodo.21365571](https://doi.org/10.5281/zenodo.21365571),
+which always resolves to the latest version.
 
 ## License
 

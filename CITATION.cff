@@ -4,6 +4,7 @@ title: diariopy
 type: software
 version: 0.1.1
 date-released: 2026-07-14
+doi: 10.5281/zenodo.21365571
 license: MIT
 repository-code: "https://github.com/StrategicProjects/diariopy"
 url: "https://strategicprojects.github.io/diariopy/"
