@@ -14,8 +14,8 @@ authenticated requests.
 https://strategicprojects.github.io/diariopy/ ; CI green on Python 3.9–3.13. GitHub
 Actions already pinned to Node-24 majors (checkout@v5, setup-uv@v7,
 upload/download-artifact@v5). Author list corrected and expanded to 7 (parity with
-the R sibling `diario`); Marcos's display surname is "Wasiliew" (email keeps
-"wasilew"). Archived to Zenodo via the GitHub integration — `CITATION.cff` and
+the R sibling `diario`); Marcos's surname and email are both "Wasiliew"
+(`marcos.wasiliew@gmail.com`; "wasilew" is a typo, fixed 2026-09-29). Archived to Zenodo via the GitHub integration — `CITATION.cff` and
 `.zenodo.json` present; DOI badge in README.
 
 Hex sticker logo added: `docs/assets/diariopy-hex.svg` (tower crane building over a
