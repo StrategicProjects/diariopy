@@ -4,13 +4,40 @@
   "description": "Python interface to the Diário de Obras (diariodeobras.net) construction-log API. Securely stores an API token and wraps authenticated requests to retrieve projects, tasks, reports, and more. Python counterpart of the R package diario.",
   "license": "MIT",
   "creators": [
-    { "name": "Leite, André", "affiliation": "Universidade Federal de Pernambuco" },
-    { "name": "Vasconcelos, Hugo", "affiliation": "Universidade Federal de Pernambuco" },
-    { "name": "Bezerra, Diogo", "affiliation": "Universidade Federal de Pernambuco" },
-    { "name": "Wasiliew, Marcos" },
-    { "name": "Amorim, Carlos", "affiliation": "Universidade Federal de Pernambuco" },
-    { "name": "Ferreira, Felipe" },
-    { "name": "Azevedo, Roger" }
+    {
+      "name": "Leite, André",
+      "affiliation": "Universidade Federal de Pernambuco",
+      "orcid": "0000-0002-4718-9766"
+    },
+    {
+      "name": "Vasconcelos, Hugo",
+      "affiliation": "Universidade Federal de Pernambuco",
+      "orcid": "0000-0001-6249-0920"
+    },
+    {
+      "name": "Bezerra, Diogo",
+      "affiliation": "Universidade Federal de Pernambuco",
+      "orcid": "0000-0002-1216-8674"
+    },
+    {
+      "name": "Wasiliew, Marcos",
+      "orcid": "0009-0004-4694-3159"
+    },
+    {
+      "name": "Amorim, Carlos",
+      "affiliation": "Universidade Federal de Pernambuco",
+      "orcid": "0000-0001-6315-8305"
+    },
+    {
+      "name": "Ferreira, Felipe"
+    },
+    {
+      "name": "Azevedo, Roger"
+    },
+    {
+      "name": "Nascimento Barreto, Júlia",
+      "orcid": "0009-0004-2851-7770"
+    }
   ],
   "keywords": [
     "diariodeobras",
@@ -21,7 +48,15 @@
     "python"
   ],
   "related_identifiers": [
-    { "relation": "isIdenticalTo", "identifier": "https://pypi.org/project/diariopy/", "resource_type": "software" },
-    { "relation": "isDerivedFrom", "identifier": "https://github.com/StrategicProjects/diario", "resource_type": "software" }
+    {
+      "relation": "isIdenticalTo",
+      "identifier": "https://pypi.org/project/diariopy/",
+      "resource_type": "software"
+    },
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "https://github.com/StrategicProjects/diario",
+      "resource_type": "software"
+    }
   ]
 }

@@ -18,6 +18,7 @@ authors = [
     { name = "Carlos Amorim", email = "carlos.agaf@ufpe.br" },
     { name = "Felipe Ferreira", email = "felipe.ferreira@semobi.pe.gov.br" },
     { name = "Roger Azevedo", email = "roger.azevedo@tpfe.com.br" },
+    { name = "Júlia Nascimento Barreto", email = "juliabarreto@gd.seplag.pe.gov.br" },
 ]
 keywords = ["diariodeobras", "construction", "obras", "api", "client"]
 classifiers = [
